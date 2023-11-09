@@ -16,7 +16,7 @@ const JobDetails = () => {
     const { logo, job_title, company_name, remote_or_onsite, location, job_type, salary, job_description, job_responsibility, educational_requirements, experiences
     } = job;
     const notify = () => {
-        saveJobApplication(id)
+        saveJobApplication(idInt)
         toast("Your job apply is successfully")
     };
     return (
